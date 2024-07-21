@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images_4.png" type="image/x-icon">
+    <script defer src="js/main.js"></script>
+    <title>Image Editor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <div>
+                <input type="file">
+            </div>
+            <div>
+                <label for="bri">Brightness</label>
+                <input type="range" id="bri" min="0" max="200">
+            </div>
+            <div>
+                <label for="sat">Hue-rotate</label>
+                <input type="range" id="hue" min="0" max="360">
+            </div>
+            <div>
+                <label for="bl">Blur</label>
+                <input type="range" id="bl" min="0" max="25">
+            </div>
+            <div>
+                <label for="inv">Inversion</label>
+                <input type="range" id="inv" min="0" max="100">
+            </div>
+            <div>
+                <label for="gry">Grayscale</label>
+                <input type="range" id="gry" min="0" max="100">
+            </div>
+            <div>
+                <label for="con">Contrast</label>
+                <input type="range" id="con" min="0" max="100">
+            </div>
+            <div>
+                <label for="sep">Sepia</label>
+                <input type="range" id="sep" min="0" max="100">
+            </div>
+            <div>
+                <label for="sat">Saturate</label>
+                <input type="range" id="sat" min="0" max="200">
+            </div>
+            <div>
+                <label for="op">Opacity</label>
+                <input type="range" id="op" min="0" max="100">
+            </div>
+        </div>
+        <div class="image">
+            <canvas id="canvas" height="500" width="500"></canvas>
+        </div>
+    </div>
+</body>
+</html>
